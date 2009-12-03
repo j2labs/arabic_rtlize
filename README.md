@@ -7,9 +7,10 @@ HasenJ's code is available here :: http://github.com/hasenj/arabic-writer
 
 Usage
 -----
-from arabic_rtlize.process import rtlize
-ltr_word = '\xda\xa9\xd9\x85\xdb\x8c\xd9\xb9\xdb\x8c'
-rtl_word = rtlize(unicode(lrt_word, 'UTF-8'))
+
+    from arabic_rtlize.process import rtlize
+    ltr_word = '\xda\xa9\xd9\x85\xdb\x8c\xd9\xb9\xdb\x8c'
+    rtl_word = rtlize(unicode(lrt_word, 'UTF-8'))
 
 Install
 -------
