@@ -198,3 +198,10 @@ forms2(u'\u0649', u'\uFEEF')
 # tatweel
 add_forms(u'\u0640', u'\u0640', u'\u0640', u'\u0640', u'\u0640', True, True)
 
+# persian support
+forms4(u'\u06cc', u'\uFEF1') # ی
+forms4(u'\u06a9', u'\uFB8E') # ک
+forms4(u'\u067e', u'\uFB56') # پ
+forms2(u'\u0698', u'\uFB8A') # ژ
+forms4(u'\u06af', u'\uFB92') # گ
+forms4(u'\u0686', u'\uFB7A') # چ
