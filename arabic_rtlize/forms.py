@@ -2,6 +2,11 @@
     Author: Hasen il Judy
     License: GPL v2
 """
+    
+try:
+    unichr
+except NameError:
+    unichr = chr
 
 class HarfForms:
     """
